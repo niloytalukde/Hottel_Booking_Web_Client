@@ -137,9 +137,9 @@ const AllRooms = () => {
               ))}
             </div>
             <div className="px-5 pt-5 pb-7">
-              <p className="text-gray-800 pb-2">Price Range </p>
+              <p className="text-gray-800 pb-2">Sort Option </p>
 
-              {PriceRange.map((option, index) => (
+              {sortOption.map((option, index) => (
                 <RadioButton key={index} label={option}></RadioButton>
               ))}
             </div>

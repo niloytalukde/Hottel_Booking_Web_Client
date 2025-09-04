@@ -3,9 +3,9 @@
 
 /* Primary and Secondary color */
 
- @theme{
-    --color-primary:#2563EB;
-    --color-secondary:#FbbF24;
+ :root {
+  --color-primary: #2563EB;
+  --color-secondary: #FBBF24;
 }
 
 
