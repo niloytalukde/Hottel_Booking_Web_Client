@@ -14,7 +14,7 @@ const Testimonial = () => {
         <div className="flex flex-wrap gap-5 mt-5 md:mt-8 xl:mt-10 ">
             {testimonials.slice(0,3).map((testimonial) => (
                 <div
-                  key={testimonial.id}
+                  key={testimonial._id}
                   className="bg-white p-6 rounded-xl shadow max-w-xs "
                 >
                   <div className="flex items-center gap-3">
